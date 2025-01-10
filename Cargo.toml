@@ -1,17 +1,17 @@
 [package]
-name = "redjubjub"
+name = "nam-redjubjub"
 edition = "2021"
 # When releasing to crates.io:
 # - Update CHANGELOG.md
 # - Create git tag.
-version = "0.7.0"
+version = "0.7.1-nam.0"
 authors = ["Henry de Valence <hdevalence@hdevalence.ca>", "Deirdre Connolly <durumcrustulum@gmail.com>", "Chelsea Komlo <me@chelseakomlo.com>", "Daira Emma Hopwood <daira@jacaranda.org>"]
 readme = "README.md"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/ZcashFoundation/redjubjub"
+repository = "https://github.com/anoma/redjubjub"
 categories = ["cryptography"]
 keywords = ["cryptography", "crypto", "jubjub", "redjubjub", "zcash"]
-description = "A standalone implementation of the RedJubjub signature scheme."
+description = "(Namada fork) A standalone implementation of the RedJubjub signature scheme."
 
 [package.metadata.docs.rs]
 features = ["nightly"]
